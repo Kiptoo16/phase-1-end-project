@@ -2,7 +2,7 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
-const appUrl ="http://localhost:3000/room"
+const appUrl ="https://phase-1-end-project-deploy.vercel.app/room"
 
 fetch(appUrl)
 .then(res => res.json())
